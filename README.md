@@ -31,7 +31,5 @@ Project 4 : 13/13
 Project 5 : 13/13
 
 
-Ovarall: 64/65.
-
 
 Course GPA: 5 (on a scale of 1-5).
