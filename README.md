@@ -21,11 +21,17 @@ and more.
 ### Grades:
 
 Project 1 : 12/13 (one mark deducted for not using overlay to put PHP script into the right place for starting at startup).
+
 Project 2 : 13/13
+
 Project 3 : 13/13
+
 Project 4 : 13/13
+
 Project 5 : 13/13
 
+
 Ovarall: 64/65.
+
 
 Course GPA: 5 (on a scale of 1-5).
