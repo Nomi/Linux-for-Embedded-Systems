@@ -1,0 +1,32 @@
+#!/bin/sh
+#modprobe snd-bcm2835
+
+sleep 1
+
+alsactl init
+
+ifconfig
+
+sleep 4 #waiting for initialization to finish.
+
+amixer -c 0 set Master playback 0% mute
+
+amixer -c 0 set Master playback 100% unmute
+
+amixer -c 0 set Headphone playback 100% unmute
+
+mpc update
+
+mpc clear
+
+mpc add /
+
+mpc repeat 1
+
+screen -m -d /usr/bin/python3 /opt/music_player.py
+
+#python /opt/music_player.py &
+
+screen -m -d /usr/bin/python3 /opt/webservice.py
+
+#python /opt/webservice.py &

@@ -1,0 +1,13 @@
+config BR2_PACKAGE_WHACKAMOLE
+        bool "whackamole"
+        depends on BR2_PACKAGE_LIBGPIOD
+        select BR2_PACKAGE_GDB
+        help
+          A small game of whackamole. Developed
+          by Noman Noor. (BETA)
+
+          http://nomi.github.io
+
+          config BR2_PACKAGE_WORMS
+
+

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ifconfig
+python3 /server/server.py &
