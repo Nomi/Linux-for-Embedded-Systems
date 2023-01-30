@@ -3,7 +3,7 @@ My solutions to the tasks from the LinES course at my university.
 
 
 ### These were built for and tested on: Raspberry Pi 4.
-(Raspberry Pi 4 is also referred to as RPi4 in various places in the project).
+(Raspberry Pi 4 is also referred to as RPi4 in various places in the projects).
 
 
 ### Technologies used:
